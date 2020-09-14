@@ -6,7 +6,7 @@ For this project, we created a workbook for Steve. At the click of a button, he 
 ### Results
 Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-Click [here](https://github.com/liviblocker/Kickstarter-Analysis/blob/master/KickstarterChallenge.xlsx) to see the full analysis.
+Click [here](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2017.png) to see the full analysis.
 
 
 
