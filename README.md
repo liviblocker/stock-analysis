@@ -13,20 +13,28 @@ Though it is important to note the overall performance of stocks in 2017 and 201
 I would recommend Steve's parents invest in ENPH - the only stock in the dataset to increase it's yearly return over both 2017 and 2018.
 
 As mentioned in the overview, we refactored the code to increase the efficiency. In the original code, 2017 and 2018 both ran at 0.625 seconds:
+
 ![OriginalCode_2017](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2017.png)
 ![OriginalCode_2018](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2018.png)
 
 The refactored code ran much faster at only 0.109375:
+
 ![VBA_Challenge_2017](https://github.com/liviblocker/stock-analysis/blob/master/VBA_Challenge_2017.png)
 ![VBA_Challenge_2018](https://github.com/liviblocker/stock-analysis/blob/master/VBA_Challenge_2018.png)
+
+The refactored code streamlined the original code making it clear and easier to understand. The major difference between the original code and the refactored code was the use of nested loops. While the original code use that structure, it became clear that it was an unnecessary in the refactored code - instead using two For Loops:
+
+![ForLoops](https://github.com/liviblocker/stock-analysis/blob/master/ForLoops.png)
 
 ## Summary
 <b>-What are the advantages or disadvantages of refactoring code?</b>
 
-There are multiple advantages of refactoring code. Refactoring code means the making it more efficient, as such refactoring code means taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+There are multiple advantages of refactoring code. In this project, refactoring the code meant making the analysis run fast (as shown in the results above). Refactoring is also a teaching tool - you become more familiar with the code and logic by breaking it down and making it neater and easier to read.
 
-Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job.
+Unfortunately, refactoring can also feel repetative and time-consuming, especially when working with smaller datasets in which the efficiency of the run time is negligible. 
 
 <b>-How do these pros and cons apply to refactoring the original VBA script?</b>
+
+Refactoring was deeply helpful to me to 
 
 
