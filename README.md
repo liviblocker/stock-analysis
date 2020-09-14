@@ -1,4 +1,4 @@
-# stock-analysis
+# Stock-Analysis
 
 ## Overview of Project
 For this project, we created a workbook for Steve to analyze stocks from 2017 and 2018 to research what stocks his parents should invest in. The scope of the original project was to analyze just a few dozen stocks, but we refactored the original code to be more efficient. With the refactored code, Steve has the capacity to thousands of stocks if he wanted to do more in-depth research later.
