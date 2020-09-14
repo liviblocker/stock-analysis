@@ -1,14 +1,24 @@
 # stock-analysis
 
 ## Overview of Project
-For this project, we created a workbook for Steve. At the click of a button, he has the ability to analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
+For this project, we created a workbook for Steve to analyze stocks from 2017 and 2018 to research what stocks his parents should invest in. The scope of the original project was to analyze just a few dozen stocks, but we refactored the original code to be more efficient. With the refactored code, Steve has the capacity to thousands of stocks if he wanted to do more in-depth research later.
+
+Click [here](https://github.com/liviblocker/stock-analysis/blob/master/VBA_Challenge.xlsm) to see the full analysis.
 
 ### Results
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+Steve's parents are interested in the DQ stock and they want to better understand if that is the right investment. Through this analysis, we can see that while DQ surged in 2017 with an annual return of 195%, it dropped 63% in 2018. Based on these results, Steve's parents may want to invest in another stock.
 
-Click [here](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2017.png) to see the full analysis.
+Though it is important to note the overall performance of stocks in 2017 and 2018. In general, 2017 was an excellent year for the collection of stocks that Steve chose to analyze. The yearly return in almost all stocks increased with the biggest drop being only 8%. It is notable that DQ's return increased 195%, higher than any other stock that year. In contrast, 2018 was a terrible year. Almost all the stocks in the dataset dropped save ENPH and RUN. DQ dropped the most with 63%. While I would still recommend Steve's parent invest in a different stock, it's helpful to contextualize the drop in a larger economic context.
 
+I would recommend Steve's parents invest in ENPH - the only stock in the dataset to increase it's yearly return over both 2017 and 2018.
 
+As mentioned in the overview, we refactored the code to increase the efficiency. In the original code, 2017 and 2018 both ran at 0.625 seconds:
+![OriginalCode_2017](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2017.png)
+![OriginalCode_2018](https://github.com/liviblocker/stock-analysis/blob/master/OriginalCode_2018.png)
+
+The refactored code ran much faster at only 0.109375:
+![VBA_Challenge_2017](https://github.com/liviblocker/stock-analysis/blob/master/VBA_Challenge_2017.png)
+![VBA_Challenge_2018](https://github.com/liviblocker/stock-analysis/blob/master/VBA_Challenge_2018.png)
 
 ## Summary
 <b>-What are the advantages or disadvantages of refactoring code?</b>
