@@ -24,7 +24,7 @@ The refactored code ran much faster at only 0.109375:
 
 The refactored code streamlined the original code making it clear and easier to understand. The major difference between the original code and the refactored code was the use of nested loops. While the original code use that structure, it became clear that it was an unnecessary in the refactored code - instead using two For Loops:
 
-![ForLoops](https://github.com/liviblocker/stock-analysis/blob/master/ForLoops.png)
+![ForLoops](https://github.com/liviblocker/stock-analysis/blob/master/ForLoop.png)
 
 ## Summary
 <b>-What are the advantages or disadvantages of refactoring code?</b>
