@@ -35,6 +35,6 @@ Unfortunately, refactoring can also feel repetative and time-consuming, especial
 
 <b>-How do these pros and cons apply to refactoring the original VBA script?</b>
 
-Refactoring was deeply helpful to me to 
+Refactoring was deeply helpful to me to better learn the logic of VBA and how make code cleaner and easier to understand. More than the faster run time of the analysis, the process of breaking down and approaching the code from a new perspective was a deeply educational experience. Because I had been working through the logic, I had the ability to identify an Overflow error and correct it by assigning the tickerStartingPrices and tickerEndingPrices variables as Integer instead of Single. Had it not been for the refactorign process, I would not have been able to adjust and make that correction.
 
-
+It wasn't perfect. The process was time-consuming and, frankly, frustrating, especially for code that runs only .5 second faster.
